@@ -4,6 +4,7 @@
 
 1. [ტერმინოლოგია](#terminology)
     - [მთავარი ბლოკის/წესის დეკლარაცია](#rules)
+    - Take me to [pookie](#pookie)
     - [სელექტორები](#selectors)
     - [პარამეტრები(Properties)](#properties)
 1. [CSS](#css)
@@ -23,6 +24,8 @@
 1. [თარგმანი](#translation)
 
 ## ტერმინოლოგია
+
+### <a name="pookie"></a>Some heading
 
 ### მთავარი ბლოკის/წესის დეკლარაცია [rules] ##
 

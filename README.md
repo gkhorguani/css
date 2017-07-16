@@ -4,7 +4,6 @@
 
 1. [ტერმინოლოგია](#terminology)
     - [მთავარი ბლოკის/წესის დეკლარაცია](#rules)
-    - Take me to [pookie](#pookie)
     - [სელექტორები](#selectors)
     - [პარამეტრები(Properties)](#properties)
 1. [CSS](#css)
@@ -25,9 +24,7 @@
 
 ## ტერმინოლოგია
 
-### <a name="pookie"></a>Some heading
-
-### მთავარი ბლოკის/წესის დეკლარაცია [rules] ##
+### <a name="rules"></a>მთავარი ბლოკის/წესის დეკლარაცია
 
 A “rule declaration” is the name given to a selector (or a group of selectors) with an accompanying group of properties. Here's an example:
 

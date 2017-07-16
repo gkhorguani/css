@@ -1,32 +1,30 @@
-# Airbnb CSS / Sass Styleguide
+# Airbnb -ს CSS / Sass სტილი / მიდგომა
 
-*A mostly reasonable approach to CSS and Sass*
+## სარჩევი
 
-## Table of Contents
-
-1. [Terminology](#terminology)
-    - [Rule Declaration](#rule-declaration)
-    - [Selectors](#selectors)
-    - [Properties](#properties)
+1. [ტერმინოლოგია](#terminology)
+    - [მთავარი ბლოკის/წესის დეკლარაცია](#rule-declaration)
+    - [სელექტორები](#selectors)
+    - [პარამეტრები(Properties)](#properties)
 1. [CSS](#css)
-    - [Formatting](#formatting)
-    - [Comments](#comments)
-    - [OOCSS and BEM](#oocss-and-bem)
-    - [ID Selectors](#id-selectors)
-    - [JavaScript hooks](#javascript-hooks)
-    - [Border](#border)
+    - [ფორმატირება](#formatting)
+    - [კომენტარები](#comments)
+    - [OOCSS და BEM](#oocss-and-bem)
+    - [ID სელექტორები](#id-selectors)
+    - [ჯავასკრიპტ საყურადღებო საკითხები](#javascript-hooks)
+    - [საზღვრები, ჩარჩოები (Borders)](#border)
 1. [Sass](#sass)
-    - [Syntax](#syntax)
-    - [Ordering](#ordering-of-property-declarations)
-    - [Variables](#variables)
+    - [სინტაქსი](#syntax)
+    - [თან-მიმდევრობა](#ordering-of-property-declarations)
+    - [ცვლადები](#variables)
     - [Mixins](#mixins)
-    - [Extend directive](#extend-directive)
-    - [Nested selectors](#nested-selectors)
-1. [Translation](#translation)
+    - [Extend დირექტივა](#extend-directive)
+    - [Nested სელექტორები](#nested-selectors)
+1. [თარგმანი](#translation)
 
-## Terminology
+## ტერმინოლოგია
 
-### Rule declaration
+### მთავარი ბლოკის/წესის
 
 A “rule declaration” is the name given to a selector (or a group of selectors) with an accompanying group of properties. Here's an example:
 
@@ -37,7 +35,7 @@ A “rule declaration” is the name given to a selector (or a group of selector
 }
 ```
 
-### Selectors
+### სელექტორები
 
 In a rule declaration, “selectors” are the bits that determine which elements in the DOM tree will be styled by the defined properties. Selectors can match HTML elements, as well as an element's class, ID, or any of its attributes. Here are some examples of selectors:
 
@@ -51,7 +49,7 @@ In a rule declaration, “selectors” are the bits that determine which element
 }
 ```
 
-### Properties
+### პარამეტრები(Properties)
 
 Finally, properties are what give the selected elements of a rule declaration their style. Properties are key-value pairs, and a rule declaration can contain one or more property declarations. Property declarations look like this:
 
@@ -66,7 +64,7 @@ Finally, properties are what give the selected elements of a rule declaration th
 
 ## CSS
 
-### Formatting
+### ფორმატირება
 
 * Use soft tabs (2 spaces) for indentation
 * Prefer dashes over camelCasing in class names.

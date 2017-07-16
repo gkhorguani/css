@@ -35,7 +35,7 @@ A “rule declaration” is the name given to a selector (or a group of selector
 }
 ```
 
-### სელექტორები
+### <a name="selectors"></a>სელექტორები
 
 In a rule declaration, “selectors” are the bits that determine which elements in the DOM tree will be styled by the defined properties. Selectors can match HTML elements, as well as an element's class, ID, or any of its attributes. Here are some examples of selectors:
 
@@ -49,7 +49,7 @@ In a rule declaration, “selectors” are the bits that determine which element
 }
 ```
 
-### პარამეტრები(Properties)
+### <a name="properties"></a>პარამეტრები(Properties)
 
 Finally, properties are what give the selected elements of a rule declaration their style. Properties are key-value pairs, and a rule declaration can contain one or more property declarations. Property declarations look like this:
 
@@ -62,9 +62,9 @@ Finally, properties are what give the selected elements of a rule declaration th
 
 **[⬆ back to top](#table-of-contents)**
 
-## CSS
+## <a name="css"></a>CSS
 
-### ფორმატირება
+### <a name="formatting"></a>ფორმატირება
 
 * Use soft tabs (2 spaces) for indentation
 * Prefer dashes over camelCasing in class names.
